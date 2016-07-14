@@ -4,6 +4,7 @@ require("babel-register");
 var webpack = require('webpack');
 
 var config = {
+  devtool: 'eval-source-map',
   entry:  __dirname + "/App/App.js",
   output: {
     path: __dirname + '/public',
